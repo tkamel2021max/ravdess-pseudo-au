@@ -1,0 +1,9 @@
+{
+ "frames": 521,
+ "face_found": 521,
+ "landmarker_ms": 16.35,
+ "face_detector_ms": 3.25,
+ "crop_resize_ms": 1.32,
+ "input_resolution": "1280x720",
+ "hardware": "Google Colab, 2 vCPUs (OpenCV 1 thread)"
+}

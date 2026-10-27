@@ -1,0 +1,102 @@
+{
+ "mediapipe_au_LR": [
+  {
+   "logisticregression__C": "0.1"
+  },
+  {
+   "logisticregression__C": "0.1"
+  },
+  {
+   "logisticregression__C": "0.1"
+  },
+  {
+   "logisticregression__C": "0.01"
+  }
+ ],
+ "mediapipe_bs_LR": [
+  {
+   "logisticregression__C": "0.01"
+  },
+  {
+   "logisticregression__C": "0.01"
+  },
+  {
+   "logisticregression__C": "0.01"
+  },
+  {
+   "logisticregression__C": "0.01"
+  }
+ ],
+ "mediapipe_au_GBT": [
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  },
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  },
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  },
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  }
+ ],
+ "mediapipe_bs_GBT": [
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  },
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  },
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  },
+  {
+   "learning_rate": "0.05",
+   "max_depth": "3"
+  }
+ ],
+ "mediapipe_au_MLP": [
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  },
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  },
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  },
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  }
+ ],
+ "mediapipe_bs_MLP": [
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  },
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  },
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  },
+  {
+   "mlpclassifier__alpha": "0.01",
+   "mlpclassifier__hidden_layer_sizes": "(128,)"
+  }
+ ]
+}

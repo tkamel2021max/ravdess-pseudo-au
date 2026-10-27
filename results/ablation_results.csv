@@ -1,0 +1,12 @@
+﻿Configuration,Emotion acc.,Emotion acc. CI low,Emotion acc. CI high,Emotion macro-F1,Emotion macro-F1 CI low,Emotion macro-F1 CI high,"AU ICC(3,1)","AU ICC(3,1) CI low","AU ICC(3,1) CI high",AU CCC,AU CCC CI low,AU CCC CI high,AU MAE,AU MAE CI low,AU MAE CI high
+ResNet-18 + causal Transf. + ordinal (base),0.584,0.563,0.605,0.577,0.555,0.597,0.549,0.542,0.556,0.547,0.540,0.554,0.463,0.456,0.471
+backbone: MobileNetV3-S,0.489,0.466,0.511,0.477,0.456,0.496,0.437,0.428,0.445,0.436,0.427,0.444,0.536,0.529,0.545
+backbone: ViT-B/16,0.623,0.603,0.644,0.615,0.595,0.634,0.657,0.651,0.664,0.656,0.649,0.662,0.398,0.392,0.404
+temporal: none (frame-wise),0.567,0.546,0.590,0.559,0.539,0.579,0.511,0.504,0.518,0.509,0.502,0.516,0.499,0.491,0.507
+temporal: causal TCN,0.580,0.558,0.601,0.567,0.548,0.587,0.485,0.477,0.492,0.483,0.476,0.491,0.508,0.500,0.516
+loss: L1,0.564,0.544,0.584,0.554,0.534,0.573,0.395,0.386,0.404,0.383,0.375,0.392,0.481,0.471,0.490
+loss: CCC+L1,0.581,0.558,0.603,0.574,0.553,0.595,0.738,0.731,0.745,0.736,0.729,0.743,0.372,0.365,0.378
+no AU supervision (direct emotion CNN),0.569,0.547,0.589,0.558,0.537,0.577,0.007,0.004,0.010,0.005,0.004,0.006,2.011,2.005,2.017
+Baseline: constant / class prior,0.133,0.115,0.151,0.029,0.026,0.033,-0.005,-0.006,-0.004,-0.005,-0.006,-0.004,0.732,0.722,0.743
+Baseline: LR on MediaPipe pseudo-AU stats (needs MediaPipe at test time),0.563,0.540,0.588,0.557,0.533,0.581,,,,,,,,,
+Baseline: LR on 52 blendshape stats (needs MediaPipe at test time),0.565,0.538,0.589,0.559,0.533,0.582,,,,,,,,,

@@ -1,0 +1,62 @@
+{
+  "cpu/resnet18+transformer": {
+    "ms_per_clip16": 232.82,
+    "ms_per_frame_amortised": 14.55,
+    "ms_backbone_single_frame": 24.75,
+    "params_M": 12.389
+  },
+  "cpu/resnet18+tcn": {
+    "ms_per_clip16": 235.95,
+    "ms_per_frame_amortised": 14.75,
+    "ms_backbone_single_frame": 25.05,
+    "params_M": 11.923
+  },
+  "cpu/mobilenet_v3_small+tcn": {
+    "ms_per_clip16": 38.91,
+    "ms_per_frame_amortised": 2.43,
+    "ms_backbone_single_frame": 7.74,
+    "params_M": 1.689
+  },
+  "cpu/mobilenet_v3_small+transformer": {
+    "ms_per_clip16": 38.17,
+    "ms_per_frame_amortised": 2.39,
+    "ms_backbone_single_frame": 7.07,
+    "params_M": 2.156
+  },
+  "cpu/vit_b_16+transformer": {
+    "ms_per_clip16": 6129.36,
+    "ms_per_frame_amortised": 383.08,
+    "ms_backbone_single_frame": 391.08,
+    "params_M": 87.076
+  },
+  "cuda/resnet18+transformer": {
+    "ms_per_clip16": 7.18,
+    "ms_per_frame_amortised": 0.449,
+    "ms_backbone_single_frame": 2.42,
+    "params_M": 12.389
+  },
+  "cuda/resnet18+tcn": {
+    "ms_per_clip16": 5.89,
+    "ms_per_frame_amortised": 0.368,
+    "ms_backbone_single_frame": 2.29,
+    "params_M": 11.923
+  },
+  "cuda/mobilenet_v3_small+tcn": {
+    "ms_per_clip16": 6.5,
+    "ms_per_frame_amortised": 0.406,
+    "ms_backbone_single_frame": 5.03,
+    "params_M": 1.689
+  },
+  "cuda/mobilenet_v3_small+transformer": {
+    "ms_per_clip16": 6.76,
+    "ms_per_frame_amortised": 0.422,
+    "ms_backbone_single_frame": 5.33,
+    "params_M": 2.156
+  },
+  "cuda/vit_b_16+transformer": {
+    "ms_per_clip16": 161.07,
+    "ms_per_frame_amortised": 10.067,
+    "ms_backbone_single_frame": 12.93,
+    "params_M": 87.076
+  }
+}

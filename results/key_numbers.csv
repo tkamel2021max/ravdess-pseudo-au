@@ -1,0 +1,14 @@
+﻿Quantity,Value,CI low,CI high
+Videos,1440,,
+Seeds,3,,
+Emotion accuracy (base),0.584,0.563,0.605
+Emotion macro-F1 (base),0.577,0.555,0.597
+"AU ICC(3,1) (base)",0.549,0.542,0.556
+AU CCC (base),0.547,0.540,0.554
+AU MAE 0-5 scale (base),0.463,0.456,0.471
+AUs evaluated,14,,
+Emotion accuracy - class prior,0.133,0.115,0.151
+Emotion accuracy - LR on MediaPipe pseudo-AUs,0.563,0.540,0.588
+Emotion accuracy - direct CNN (no AU),0.569,0.547,0.589
+Latency CPU ms/frame (ResNet-18+TCN),13.8,,
+Latency GPU ms/frame (ResNet-18+TCN),0.4,,

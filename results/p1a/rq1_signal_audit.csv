@@ -1,0 +1,17 @@
+AU,description,blendshapes,raw_mean,raw_std,raw_min,raw_median,raw_p99,raw_max,frac_raw_below_0.001,frac_raw_ge_0.02,calib_q99_min,calib_q99_max,q99_floor_hit,calibrated_prevalence,calibrated_label_var,status
+1,Inner brow raiser,browInnerUp,0.10542,0.20831,0.0,0.00545,0.85541,0.97864,0.33503,0.37268,0.85097,0.86072,False,0.12553,1.46112,ok
+2,Outer brow raiser,browOuterUpLeft+browOuterUpRight,0.08917,0.17297,5e-05,0.01267,0.79265,0.97603,0.13912,0.42438,0.73896,0.81449,False,0.10032,1.18204,ok
+4,Brow lowerer,browDownLeft+browDownRight,0.22842,0.24938,0.0,0.12689,0.8766,0.94977,0.10146,0.73649,0.85257,0.88517,False,0.27556,2.02771,ok
+5,Upper lid raiser,eyeWideLeft+eyeWideRight,0.01426,0.03263,0.00016,0.00483,0.17522,0.47515,0.06987,0.14594,0.12114,0.19954,False,0.04615,0.66979,ok
+6,Cheek raiser,cheekSquintLeft+cheekSquintRight,0.0,0.0,0.0,0.0,1e-05,2e-05,1.0,0.0,0.05,0.05,True,0.0,0.0,zero variance
+7,Lid tightener,eyeSquintLeft+eyeSquintRight,0.41853,0.19847,0.0027,0.42224,0.82939,0.90466,0.0,0.99006,0.80961,0.83566,False,0.65895,1.43114,ok
+9,Nose wrinkler,noseSneerLeft+noseSneerRight,0.0,0.0,0.0,0.0,1e-05,3e-05,1.0,0.0,0.05,0.05,True,0.0,0.0,"zero prevalence, non-zero variance"
+10,Upper lip raiser,mouthUpperUpLeft+mouthUpperUpRight,0.12833,0.22157,0.0,0.01017,0.86781,0.94803,0.28227,0.43932,0.84639,0.88373,False,0.15095,1.62161,ok
+12,Lip corner puller,mouthSmileLeft+mouthSmileRight,0.19594,0.28719,0.0,0.01853,0.93214,0.98237,0.25127,0.49372,0.9246,0.93914,False,0.2397,2.36194,ok
+14,Dimpler,mouthDimpleLeft+mouthDimpleRight,0.01304,0.02676,0.00026,0.0061,0.11406,0.71428,0.0349,0.15267,0.09473,0.12108,False,0.05211,0.65709,ok
+15,Lip corner depressor,mouthFrownLeft+mouthFrownRight,0.00512,0.01967,0.0,0.00047,0.08869,0.63419,0.61978,0.05685,0.08015,0.09573,False,0.03298,0.52547,ok
+16,Lower lip depressor,mouthLowerDownLeft+mouthLowerDownRight,0.03718,0.08147,1e-05,0.00592,0.43028,0.95427,0.28691,0.31239,0.37101,0.44874,False,0.05889,0.78114,ok
+17,Chin raiser,mouthShrugLower,0.03826,0.11108,2e-05,0.00439,0.64412,0.98918,0.1839,0.23179,0.47242,0.69099,False,0.04107,0.67295,ok
+20,Lip stretcher,mouthStretchLeft+mouthStretchRight,0.02256,0.04742,0.0,0.00594,0.24095,0.69497,0.19532,0.27064,0.22338,0.24915,False,0.05135,0.67751,ok
+23,Lip pressor,mouthPressLeft+mouthPressRight,0.05721,0.0682,0.00026,0.03426,0.33919,0.78065,0.00406,0.67082,0.31009,0.35652,False,0.10232,0.88982,ok
+26,Jaw drop,jawOpen,0.11098,0.14572,4e-05,0.0446,0.63228,0.96094,0.04362,0.62837,0.60801,0.65182,False,0.15012,1.25253,ok

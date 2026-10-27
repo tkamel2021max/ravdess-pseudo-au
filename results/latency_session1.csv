@@ -1,0 +1,5 @@
+﻿Model,Params (M),CPU ms per 16-frame clip,CPU ms/frame (amortised),CPU ms backbone single frame,GPU ms per 16-frame clip,GPU ms/frame (amortised),GPU ms backbone single frame
+ResNet-18 + causal Transformer,12.389,215.7,13.48,21.57,7.54,0.47,2.18
+ResNet-18 + causal TCN,11.923,220.06,13.75,22.26,6.03,0.38,2.26
+MobileNetV3-S + causal TCN,1.689,33.44,2.09,6.81,6.11,0.38,5.52
+ViT-B/16 + causal Transformer,87.076,5900.45,368.78,437.45,170.86,10.68,13.46
